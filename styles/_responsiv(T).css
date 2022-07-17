@@ -1,0 +1,268 @@
+@media screen and (min-width: 768px) {
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .logo-img {
+    width: 25%;
+    margin-top: 3%;
+  } 
+  
+  .menu-btn{
+    position: absolute;
+    width: 8%;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+
+  .dropdown-menu {
+    margin-top: 15%;
+  }
+
+  .text-box p:first-child {
+    font-size: 3rem;
+  }
+
+  .text-box p:last-child{
+    font-size: 1.3rem;
+  }
+
+  .text-box p:first-child,
+  .text-box p:last-child {
+    width: 100%;
+    margin-left: 50%;
+  }
+
+  .text-box p:first-child::after {
+    content: "";
+    border: 1px solid #fff; 
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+  }
+
+.section-text p:first-child {
+  font-size: 3rem;
+}
+
+
+ /* 최신식 장비 둘러보기 페이지 CSS */
+.equip-btn1{
+  background-color: #222222;
+  opacity: 70%;
+  border-radius: 50%;
+  border: none;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 45%;
+  left: 7%;
+  
+}
+
+.btn-prev-equip{
+  width: 10px;
+}
+
+.equip-btn2{
+  background-color: #222222;
+  opacity: 70%;
+  border-radius: 50%;
+  border: none;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 45%;
+  right: 7%;
+  
+}
+
+.btn-next-equip{
+  width: 10px;
+}
+
+.mri-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* 검사영역 태블릿 페이지 CSS */
+
+.examination{
+position: relative;
+}
+
+.title {
+font-size: 3rem;
+text-align: center;
+margin-top: 80px;
+margin-bottom: 40px;
+}
+.examination-img-1,
+.examination-img-2 {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 170px;
+margin-left: 20px;
+}
+.examination-img-2 {
+margin-top: 0;
+}
+.box-01,
+.box-02,
+.box-03,
+.box-04,
+.box-05,
+.box-06,
+.box-07,
+.box-08 {
+cursor: pointer;
+margin-right: 95px;
+}
+.examination-img {
+width: 80px;
+height: 80px;
+}
+.examination-text-1 {
+font-weight: 400;
+font-size: 1rem;
+line-height: 150%;
+color: #a7adaf;
+text-align: center;
+}
+.examination-text-1:hover {
+color: #15303e;
+}
+.btn-detail {
+width: 200px;
+height: 60px;
+margin-top: 80px;
+margin-left: 38%;
+margin-bottom: 80px;
+background: #fff;
+border: 1px solid #f05226;
+border-radius: 10px;
+font-size: 1.2rem;
+font-weight: 500;
+line-height: 150%;
+color: #f05226;
+}
+.btn-detail:hover {
+background: #f05226;
+color: #fff;
+}
+
+
+/* 둘러보기 페이지 CSS */
+
+.around-img{
+position: relative;
+width: 100%;
+}
+
+.around-title {
+position: absolute;
+font-size: 3rem;
+text-align: center;
+margin-left: 25%;
+margin-bottom: 0;
+
+}
+
+.around-title::after {
+content: "";
+border: 1px solid #333;
+width: 50px;
+position: absolute;
+top: 120%;
+right: 45%;
+}
+
+.around-des {
+position: absolute;
+font-size: 1.4rem;
+text-align: center;
+margin-top: 20%;
+margin-left: -50%;
+width: 200%;
+}
+
+.btn-detail-04 {
+width: 200px;
+height: 60px;
+margin-top: 40%;
+margin-left: 38%;
+margin-bottom: 80px;
+background: #fff;
+border: 1px solid #f05226;
+border-radius: 10px;
+font-size: 1.2rem;
+font-weight: 500;
+line-height: 150%;
+color: #f05226;
+}
+.btn-detail-04:hover {
+background: #f05226;
+color: #fff;
+}
+
+
+/* 소식 페이지 CSS */
+
+.news-title {
+font-size: 3rem;
+text-align: center;
+margin-top: 10%;
+}
+
+.menu-title,.more  {
+font-size: 2rem;
+}
+
+.sub-title, .date {
+font-size: 1.3rem;
+}
+
+.news-box{
+margin-right: 3%;
+}
+
+/* footer CSS */
+
+.footer-list,
+.footer-list2 {
+display: flex;
+justify-content: center;
+font-weight: 400;
+font-size: 1rem; 
+color: #a4a4a4;
+}
+
+.footer-list2 {
+margin-right: 2%;
+}
+
+.copy {
+text-align: center;
+font-weight: 400;
+font-size: 1rem;
+
+color: #a4a4a4;
+margin-top: 5px;
+margin-bottom: 5%;
+}
+
+}
